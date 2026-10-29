@@ -1,0 +1,569 @@
+body {
+    background-image: url(../images/Фон.jpg);
+}
+
+@font-face {
+  font-family: "China";
+  src: url("../fonts/20870.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Normal";
+  src: url("../fonts/Brygada1918.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+#back {
+    display: flex;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.first {
+    width: 75%;
+    height: 100%;
+}
+
+.second {
+    backdrop-filter: blur(5px);
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 0px 30px rgba(0, 0, 0, 0.25);
+}
+
+.zg {
+    display: flex;
+}
+
+.txt {
+    padding-left: 40px;
+    font-family: "China";
+    color: #FF7F00;
+    font-size: 50px;
+    letter-spacing: 30%;
+}
+
+.tt {
+    font-size: 30px;
+    color: white;
+    margin-left: 30px;
+}
+
+.tx {
+    font-family: "China";
+    letter-spacing: 20%;
+}
+
+.tx1 {
+    font-family: "Normal";
+    letter-spacing: 10%;
+
+}
+
+.tx2 {
+    font-size: 25px;
+    color: white;
+    font-family: "China";
+    letter-spacing: 10%;
+}
+
+.tx3 {
+    font-size: 15px;
+    color: white;
+    font-family: "Normal";
+    line-height: 3;
+    padding-bottom: 50px;
+}
+
+.main {
+    display: flex;
+    margin-bottom: -40px;
+    margin-left: 10px;
+}
+
+.p {
+    display: flex;
+    text-align: start;
+    font-size: 28px;
+    color: white;
+    letter-spacing: 10%;
+    width: 45%;
+    font-family: "Normal";
+}
+
+.p1 {
+    display: flex;
+    text-align: start;
+    font-size: 28px;
+    color: white;
+    letter-spacing: 10%;
+    width: 45%;
+    font-family: "Normal";
+}
+
+.main1 {
+    margin-left: -330px;
+}
+
+.main2{
+    display: flex;
+    margin-top: 20px;
+}
+
+.p2 {
+    text-align: end;
+    margin-left: 35%;
+    margin-right: 5%;
+}
+
+.btn {
+    background-color: white;
+    width: 220px;
+    border-radius: 30px 0px 70px 0px;
+    font-family: "China";
+    color: #980202;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.clean {
+  text-decoration: none;
+  color: inherit;
+}
+
+.main4 {
+    display: flex;
+    margin-top: 25px;
+}
+
+.od {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    text-align: end;
+    font-size: 30px;
+    letter-spacing: 20%;
+    font-family: "Normal";
+    margin-right: 30px;
+    margin-left: 23%;
+    color: white;
+}
+
+.od1 {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    text-align: start;
+    font-size: 30px;
+    letter-spacing: 20%;
+    font-family: "Normal";
+    margin-right: 27%;
+    margin-left: 30px;
+    color: white;
+}
+
+.od2 {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    align-items: center;
+    text-align: end;
+    font-size: 30px;
+    letter-spacing: 20%;
+    font-family: "Normal";
+    margin-right: 30px;
+    margin-left: 19%;
+    color: white;
+}
+
+.btn1 {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 90%;
+    height: 120px;
+    border-radius: 50px 10px 100px 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    color: #980202;
+    font-family: "China";
+    font-size: 30px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.inp {
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    border: 4px solid #980202;
+    padding-left: 20px;
+}
+
+.vert {
+    writing-mode: vertical-rl;
+    color: white;
+    font-size: 35px;
+    letter-spacing: 10%;
+    font-family: "China";
+}
+
+.inp1 {
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    border: 4px solid #980202;
+    padding-left: 20px;
+    margin-bottom: 10px;
+}
+
+.vvod {
+    width: 37%;
+}
+
+.btn2 {
+    margin-top: 35px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 500px;
+    height: 120px;
+    border-radius: 100px 0px 50px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    color: #980202;
+    font-family: "China";
+    font-size: 30px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.ch {
+    padding-right: 90px;
+}
+
+.ded {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: "Normal";
+    margin-left: 30px;
+}
+
+.tx4 {
+    margin-top: -20px;
+    letter-spacing: 10%;
+}
+
+.dc {
+    color: #FF7F00;
+}
+
+.zg1 {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 30px;
+    gap: 30px;
+    font-family: "Normal";
+    letter-spacing: 20%;
+}
+
+.tx5 {
+    font-size: 20px;
+    color: white;
+}
+
+.zg2 {
+    color: white;
+    font-family: "China";
+    letter-spacing: 15%;
+    font-size: 30px;
+    text-align: end;
+    margin-left: 150px;
+    margin-top: 10px;
+}
+
+.btn3 {
+    margin-top: 30px;
+    margin-left: 35px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 500px;
+    height: 70px;
+    border-radius: 0px 20px 0px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    color: #980202;
+    font-family: "China";
+    font-size: 30px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+    letter-spacing: 5%;
+}
+
+.btn4 {
+    margin-top: 25px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 505px;
+    height: 120px;
+    border-radius: 100px 0px 100px 0px;
+    justify-content: center;
+    align-items: center;
+    gap: 300px;
+    color: #980202;
+    font-family: "China";
+    font-size: 50px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+    letter-spacing: 30%;
+}
+
+.rg {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.rg1 {
+    width: 400px;
+    background-color: white;
+    border-radius: 70px 70px 20px 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: "China";
+    color: #980202;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.rg2 {
+    width: 380px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px 20px 100px 100px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.rg3 {
+    width: 400px;
+    height: 60px;
+    background-color: white;
+    margin-top: 20px;
+    font-size: 30px;
+    font-family: "China";
+    color: #980202;
+    border-radius: 70px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.inp2 {
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    border: 4px solid #980202;
+    padding-left: 20px;
+    margin: 5px;
+}
+
+.tx6 {
+    margin-top: 12px;
+}
+
+.tx7 {
+    color: #FF7F00;
+    font-family: "Normal";
+    letter-spacing: 20%;
+}
+
+.op {
+    width: 500px;
+    height: 600px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.zg3 {
+    font-family: "China";
+    margin-bottom: 50px;
+    margin-top: 10px;
+    letter-spacing: 15%;
+}
+
+.tx8 {
+    font-family: "Normal";
+    letter-spacing: 30%;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.rg21{
+    width: 380px;
+    background-color: white;
+    padding: 40px;
+    border-radius: 20px 20px 100px 100px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.lk {
+    width: 930px;
+    height: 530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.lk1 {
+    width: 700px;
+    background-color: white;
+    border-radius: 20px 20px 70px 70px;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 20%;
+    font-family: "China";
+    color: #980202;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.zgg {
+    display: flex;
+    margin-top: 20px;
+}
+
+.lk2 {
+    width: 200px;
+    background-color: white;
+    font-family: "China";
+    font-size: 30px;
+    color: #980202;
+    border-radius: 20px 20px 70px 20px;
+    margin-right: 80px;
+    text-align: center;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+
+}
+
+.lk3 {
+    width: 200px;
+    background-color: white;
+    font-family: "China";
+    font-size: 30px;
+    color: #980202;
+    border-radius: 20px 20px 20px 70px;
+    margin-left: 80px;
+    text-align: center;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.lk4 {
+    width: 230px;
+    height: 100px;
+    background-color: white;
+    font-family: "China";
+    font-size: 30px;
+    color: #980202;
+    border-radius: 20px 20px 70px 20px;
+    margin-right: 80px;
+    text-align: center;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.lk5 {
+    width: 230px;
+    height: 100px;
+    background-color: white;
+    font-family: "China";
+    font-size: 30px;
+    color: #980202;
+    border-radius: 20px 20px 20px 70px;
+    margin-left: 80px;
+    text-align: center;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.tx9 {
+    margin-top: 12px;
+    margin-left: -10px;
+}
+
+.lk6 {
+    width: 700px;
+    background-color: white;
+    border-radius: 20px 20px 70px 70px;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 20%;
+    font-family: "China";
+    color: #980202;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+    margin-top: 30px;
+}
+
+.lk7 {
+    height: 70px;
+    width: 300px;
+    background-color: white;
+    font-family: "China";
+    font-size: 30px;
+    color: #980202;
+    border-radius: 20px 20px 70px 70px;
+    margin-right: 80px;
+    text-align: center;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.lk8 {
+    height: 70px;
+    width: 300px;
+    background-color: white;
+    font-family: "China";
+    font-size: 30px;
+    color: #980202;
+    border-radius: 20px 20px 70px 70px;
+    margin-left: 80px;
+    text-align: center;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.25);
+}
+
+.tx10 {
+    margin-top: 17px;
+}
+
+.ls {
+    background-color: #980202;
+    color: #FF7F00;
+    font-family: "Normal";
+    letter-spacing: 50%;
+    margin-top: 30px;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 15px;
+}
